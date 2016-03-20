@@ -68,3 +68,5 @@ myplot<-ggplot(data=mydata,aes(x=inclusion_time, fill=sped)) +
   geom_density(alpha=.3) +
   labs(title="Density plots of inclusion time, grouped by sped (2013)", x="", y="")
 print(myplot)
+
+#########
